@@ -4,11 +4,11 @@ public class Main {
     public static void main(String[] args) {
 
         double initialbalance = 100;
-        double replenishmentbalance = 1500;
+        double replenishmentbalance = 1100;
         double bonus = 0;
 
         if (replenishmentbalance > 1000) {
-            bonus = (replenishmentbalance - 1000) / 100;
+           bonus = (replenishmentbalance / 100);
         }
         double finalbalance = initialbalance + replenishmentbalance + bonus;
 
