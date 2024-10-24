@@ -3,16 +3,16 @@
 public class Main {
     public static void main(String[] args) {
 
-        double initialbalance = 100;
-        double replenishmentbalance = 1100;
+        double initialBalance = 100;
+        double replenishmentBalance = 1100;
         double bonus = 0;
 
-        if (replenishmentbalance > 1000) {
-           bonus = (replenishmentbalance / 100);
+        if (replenishmentBalance > 1000) {
+           bonus = (replenishmentBalance / 100);
         }
-        double finalbalance = initialbalance + replenishmentbalance + bonus;
+        double finalBalance = initialBalance + replenishmentBalance + bonus;
 
-        System.out.printf("Итоговый счет: %.2f%n", finalbalance);
+        System.out.printf("Итоговый счет: %.2f%n", finalBalance);
         System.out.printf("Бонусные рубли: %.2f%n", bonus);
     }
 }
